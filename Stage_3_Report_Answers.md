@@ -146,6 +146,10 @@ CIFAR-10 (default):
 
 ![CIFAR default convergence](assets/plots/CIFAR_default_learning_curves.png)
 
+CIFAR-10 (low-lr ablation):
+
+![CIFAR low-lr convergence](assets/plots/CIFAR_low_lr_learning_curves.png)
+
 Additional ablation convergence plots are included in `assets/plots/`.
 
 All runs show decreasing loss and improving test accuracy over epochs. The CIFAR low-lr ablation converges more slowly and reaches a lower plateau, consistent with underfitting.
